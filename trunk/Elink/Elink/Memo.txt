@@ -1,0 +1,4 @@
+﻿copy $(TargetPath) ..\..\setup\installfiles /y
+copy $(TargetDir)es-ES ..\..\setup\installfiles\es-ES /y
+
+

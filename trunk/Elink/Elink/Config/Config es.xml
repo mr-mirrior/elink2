@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <user_name>NOMBRE DE USUARIO</user_name>
+  <country>España</country>
+  <average_consumption>1.8</average_consumption>
+  <carbon>1.5</carbon>
+  <lang>es-ES</lang>
+  <target>2</target>
+   <currency>€</currency>
+    <target_type>1</target_type>
+  <target_period>0</target_period>
+  <single_tariff>true</single_tariff>
+  <firmware_version>1.1</firmware_version>
+  <advTariff>
+     <tariff_name>Tarifa 2.0.3</tariff_name>
+     <max_power>4</max_power>
+    <power_fee>1</power_fee>
+    <energy_rates_p1>0.11</energy_rates_p1>
+    <number_periods>0</number_periods>
+    <meter_rent>4</meter_rent>
+    <elec_tax>3</elec_tax>
+    <VAT>4</VAT>
+    <over_limit>200</over_limit>
+    <over_charge>8</over_charge>
+    <tariffs>2</tariffs>
+    <price_alias>
+      <string>Punta</string>
+      <string>Valle</string>
+      <string>Otros...</string>
+    </price_alias>
+    <price_values>
+      <float>0.5</float>
+      <float>0.3</float>
+      <float>1</float>
+    </price_values>
+    <price_currency>€</price_currency>
+    <simple>true</simple>
+    <simple_periods>2</simple_periods>
+    <p1_price>0</p1_price>
+    <p2_price>1</p2_price>
+    <p3_price>0</p3_price>
+    <p1_time1>11:00</p1_time1>
+    <p1_time2>14:00</p1_time2>
+    <p3_time1>11:00</p3_time1>
+    <p3_time2>14:00</p3_time2>
+    <adv />
+  </advTariff>
+</Settings>

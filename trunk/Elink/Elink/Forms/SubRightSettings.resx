@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lb11.Text" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn21.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btn21x.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb15.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lb11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 186</value>
+  </data>
+  <data name="pl1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb11.Name" xml:space="preserve">
+    <value>lb11</value>
+  </data>
+  <data name="rfTariff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 26</value>
+  </data>
+  <data name="cb12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 45</value>
+  </data>
+  <data name="rnd14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lb11.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="btnDiscard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="roundFrame2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 26</value>
+  </data>
+  <data name="btn23x.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 51</value>
+  </data>
+  <data name="lb3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn21x.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="rnd11.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn23.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="btnApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;rfTariff.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tb3.Name" xml:space="preserve">
+    <value>tb3</value>
+  </data>
+  <data name="&gt;&gt;lb3.Name" xml:space="preserve">
+    <value>lb3</value>
+  </data>
+  <data name="btnDiscard.Text" xml:space="preserve">
+    <value>DISCARD</value>
+  </data>
+  <data name="&gt;&gt;btn23.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="rnd12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 44</value>
+  </data>
+  <data name="&gt;&gt;btn23x.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cb14.Items" xml:space="preserve">
+    <value>kWh</value>
+  </data>
+  <data name="plTop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pl2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="roundFrame2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 24</value>
+  </data>
+  <data name="roundFrame2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;rnd11.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb31.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rnd14.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="roundFrame1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl21.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="roundFrame1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb13.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb14.Name" xml:space="preserve">
+    <value>tb14</value>
+  </data>
+  <data name="&gt;&gt;roundFrame1.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn23x.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rnd12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="roundFrame1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="plTop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb14.Name" xml:space="preserve">
+    <value>cb14</value>
+  </data>
+  <data name="&gt;&gt;rnd11.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="lb31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="cb15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="btn21x.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 182</value>
+  </data>
+  <data name="&gt;&gt;pl21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 51</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SubRightSettings</value>
+  </data>
+  <data name="rnd3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 26</value>
+  </data>
+  <data name="rnd3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn23x.Text" xml:space="preserve">
+    <value>TARIFF</value>
+  </data>
+  <data name="tb3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pl2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;rnd12.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lb13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rnd13.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="cb12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;roundFrame1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7pt</value>
+  </data>
+  <data name="lb15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7pt</value>
+  </data>
+  <data name="pl21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 231</value>
+  </data>
+  <data name="btnDiscard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rnd13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pl1.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn23.Text" xml:space="preserve">
+    <value>TARIFF</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDiscard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pl1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="roundFrame2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lb31.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;plPatch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lb11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rnd12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pl2.Name" xml:space="preserve">
+    <value>pl2</value>
+  </data>
+  <data name="&gt;&gt;cb12.Name" xml:space="preserve">
+    <value>cb12</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lb15.Name" xml:space="preserve">
+    <value>lb15</value>
+  </data>
+  <data name="roundFrame1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tb3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 112</value>
+  </data>
+  <data name="rnd11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 12</value>
+  </data>
+  <data name="&gt;&gt;btn23x.Name" xml:space="preserve">
+    <value>btn23x</value>
+  </data>
+  <data name="roundFrame2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 107</value>
+  </data>
+  <data name="roundFrame2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;roundFrame2.Name" xml:space="preserve">
+    <value>roundFrame2</value>
+  </data>
+  <data name="tb14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 16</value>
+  </data>
+  <data name="&gt;&gt;pl1.Name" xml:space="preserve">
+    <value>pl1</value>
+  </data>
+  <data name="rnd3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="btn21.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rnd14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 26</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 467</value>
+  </data>
+  <data name="tbProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb15.Text" xml:space="preserve">
+    <value>kg.CO2/kWh</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lb11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 14</value>
+  </data>
+  <data name="tb3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lb3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tb3.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="lb12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lb11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;rnd12.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="&gt;&gt;cb13.Name" xml:space="preserve">
+    <value>cb13</value>
+  </data>
+  <data name="&gt;&gt;lb3.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;btn23x.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;plPatch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb11.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lb3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="btn1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tb14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn23x.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb3.Text" xml:space="preserve">
+    <value>kWh each day</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 108</value>
+  </data>
+  <data name="btnDiscard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 28</value>
+  </data>
+  <data name="&gt;&gt;btnDiscard.Name" xml:space="preserve">
+    <value>btnDiscard</value>
+  </data>
+  <data name="tb14.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btn21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn23x.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btn21x.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="tbProfile.ToolTip" xml:space="preserve">
+    <value>Please input your tariff name here. For example 'MyPowerUtility'</value>
+  </data>
+  <data name="&gt;&gt;pl21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cb15.Items2" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="lb14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 78</value>
+  </data>
+  <data name="&gt;&gt;btnDiscard.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tb11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnd3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn21x.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;tb14.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rnd12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 27</value>
+  </data>
+  <data name="&gt;&gt;rnd14.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="lb15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 78</value>
+  </data>
+  <data name="rnd11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rnd14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 210</value>
+  </data>
+  <data name="roundFrame1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;roundFrame1.Name" xml:space="preserve">
+    <value>roundFrame1</value>
+  </data>
+  <data name="roundFrame2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn23x.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnApply.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfTariff.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rnd11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 27</value>
+  </data>
+  <data name="rnd11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="roundFrame2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="cb14.Items2" xml:space="preserve">
+    <value>kg.CO2</value>
+  </data>
+  <data name="cb14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 110</value>
+  </data>
+  <data name="plTop.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn21x.Name" xml:space="preserve">
+    <value>btn21x</value>
+  </data>
+  <data name="btn21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lb12.Name" xml:space="preserve">
+    <value>lb12</value>
+  </data>
+  <data name="&gt;&gt;pl21.Name" xml:space="preserve">
+    <value>pl21</value>
+  </data>
+  <data name="&gt;&gt;rnd12.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 28</value>
+  </data>
+  <data name="cb15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 110</value>
+  </data>
+  <data name="cb14.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Name" xml:space="preserve">
+    <value>tbProfile</value>
+  </data>
+  <data name="lb31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb15.Items" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="cb13.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt</value>
+  </data>
+  <data name="rnd3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 107</value>
+  </data>
+  <data name="&gt;&gt;rfTariff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tb11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb14.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rnd13.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDiscard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 6</value>
+  </data>
+  <data name="pl21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;cb12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pl2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rnd12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl21.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rnd12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rnd3.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;rnd3.Name" xml:space="preserve">
+    <value>rnd3</value>
+  </data>
+  <data name="&gt;&gt;btn21x.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="&gt;&gt;lb13.Name" xml:space="preserve">
+    <value>lb13</value>
+  </data>
+  <data name="&gt;&gt;btn23.Name" xml:space="preserve">
+    <value>btn23</value>
+  </data>
+  <data name="btn23x.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt, style=Bold</value>
+  </data>
+  <data name="lb31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfTariff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 181</value>
+  </data>
+  <data name="btnDiscard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btn1.Name" xml:space="preserve">
+    <value>btn1</value>
+  </data>
+  <data name="rfTariff.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 0</value>
+  </data>
+  <data name="$this.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb12.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lb31.Text" xml:space="preserve">
+    <value>Set Your Target</value>
+  </data>
+  <data name="&gt;&gt;btn21.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="plTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;cb14.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="plPatch.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="roundFrame1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 107</value>
+  </data>
+  <data name="lb14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rnd3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pl2.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb14.Items1" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="btn1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 15</value>
+  </data>
+  <data name="plPatch.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lb15.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rfTariff.Name" xml:space="preserve">
+    <value>rfTariff</value>
+  </data>
+  <data name="cb13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb14.Name" xml:space="preserve">
+    <value>lb14</value>
+  </data>
+  <data name="cb13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 233</value>
+  </data>
+  <data name="tbProfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cb12.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tb14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="rnd13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 26</value>
+  </data>
+  <data name="&gt;&gt;btn21.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;cb15.Name" xml:space="preserve">
+    <value>cb15</value>
+  </data>
+  <data name="lb14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rnd13.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="plPatch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb14.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cb12.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="lb12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="cb15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rnd3.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn1.Text" xml:space="preserve">
+    <value>PERSONAL</value>
+  </data>
+  <data name="&gt;&gt;plPatch.Name" xml:space="preserve">
+    <value>plPatch</value>
+  </data>
+  <data name="btn1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cb15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb11.Name" xml:space="preserve">
+    <value>tb11</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;btn1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>APPLY</value>
+  </data>
+  <data name="tb3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="rfTariff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cb12.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rnd14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="tb11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb15.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;lb31.Name" xml:space="preserve">
+    <value>lb31</value>
+  </data>
+  <data name="&gt;&gt;tb14.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn21x.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn21x.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 51</value>
+  </data>
+  <data name="btn1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lb12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb15.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="lb3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 78</value>
+  </data>
+  <data name="tb14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 81</value>
+  </data>
+  <data name="rnd12.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 182</value>
+  </data>
+  <data name="btn1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 7</value>
+  </data>
+  <data name="lb3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7pt</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="&gt;&gt;cb13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb12.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="roundFrame1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rnd14.Name" xml:space="preserve">
+    <value>rnd14</value>
+  </data>
+  <data name="cb14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rnd13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn23x.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="btn21x.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tb11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="plTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 141</value>
+  </data>
+  <data name="btn1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb14.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;btnDiscard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="tb3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbProfile.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tb11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="cb15.Items1" xml:space="preserve">
+    <value>week</value>
+  </data>
+  <data name="btn21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pl21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb13.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;pl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lb31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 106</value>
+  </data>
+  <data name="btn21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 182</value>
+  </data>
+  <data name="&gt;&gt;lb11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rnd11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rnd11.Name" xml:space="preserve">
+    <value>rnd11</value>
+  </data>
+  <data name="&gt;&gt;ttGuide.Name" xml:space="preserve">
+    <value>ttGuide</value>
+  </data>
+  <data name="&gt;&gt;rnd14.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rnd13.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 190</value>
+  </data>
+  <data name="lb12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb31.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="plPatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 210</value>
+  </data>
+  <data name="&gt;&gt;lb3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb12.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="plPatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 218</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;rnd12.Name" xml:space="preserve">
+    <value>rnd12</value>
+  </data>
+  <data name="&gt;&gt;cb13.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lb13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 146</value>
+  </data>
+  <data name="lb31.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lb14.Text" xml:space="preserve">
+    <value>Carbon Ratio</value>
+  </data>
+  <data name="btn21x.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lb11.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lb3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;cb13.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;btn1.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="&gt;&gt;lb15.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb13.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="roundFrame1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 26</value>
+  </data>
+  <data name="&gt;&gt;rnd13.Name" xml:space="preserve">
+    <value>rnd13</value>
+  </data>
+  <data name="&gt;&gt;btn23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb14.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lb31.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rnd13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb13.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btn21x.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfTariff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 77</value>
+  </data>
+  <data name="roundFrame1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 8, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;roundFrame2.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="lb14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn23x.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 182</value>
+  </data>
+  <data name="&gt;&gt;plTop.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tb3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lb13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="roundFrame2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lb13.Text" xml:space="preserve">
+    <value>Currency Symbol</value>
+  </data>
+  <data name="pl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="btn21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 7.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cb14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ttGuide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnd13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 76</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rfTariff.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cb13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 77</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="cb14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 6</value>
+  </data>
+  <data name="rnd14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 76</value>
+  </data>
+  <data name="plPatch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rnd14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pl2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfTariff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnDiscard.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn23x.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rnd11.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="rfTariff.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rnd14.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cb15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn23.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 210</value>
+  </data>
+  <data name="btn23x.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rnd13.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn21x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lb12.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>per</value>
+  </data>
+  <data name="rnd3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnd3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btn21.Text" xml:space="preserve">
+    <value>TARIFF</value>
+  </data>
+  <data name="cb12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 24</value>
+  </data>
+  <data name="cb12.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb15.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn21.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tb11.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="tb3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="btn21x.Text" xml:space="preserve">
+    <value>TARIFF</value>
+  </data>
+  <data name="&gt;&gt;btn21.Name" xml:space="preserve">
+    <value>btn21</value>
+  </data>
+  <data name="&gt;&gt;lb13.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;roundFrame1.Parent" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="rnd11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;roundFrame2.Type" xml:space="preserve">
+    <value>Elink.RoundFrame, Elink, Version=1.1.0.34276, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 51</value>
+  </data>
+  <data name="btn21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="lb11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tariff ID.</value>
+  </data>
+  <data name="lb13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="lb12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 46</value>
+  </data>
+  <data name="&gt;&gt;plTop.Name" xml:space="preserve">
+    <value>plTop</value>
+  </data>
+  <data name="&gt;&gt;plPatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb12.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rnd3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDiscard.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 47</value>
+  </data>
+  <data name="lb15.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;roundFrame2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ttGuide.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+</root>

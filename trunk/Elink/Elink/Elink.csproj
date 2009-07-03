@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA9030B4-85B0-47D7-9E08-378372C3F379}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elink</RootNamespace>
+    <AssemblyName>Elink</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>elink1.ico</ApplicationIcon>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <ManifestCertificateThumbprint>C5BBC1ED7ADA9285522EA78812C1FBDE8535B8DF</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Elink_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <StartupObject>Elink.Program</StartupObject>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NEW_FORMAT_MAX_POWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NEW_FORMAT_MAX_POWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\BackupRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BackupRestore.Designer.cs">
+      <DependentUpon>BackupRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CSV.cs" />
+    <Compile Include="Data\DataFromE2.cs" />
+    <Compile Include="Data\EnergyData.cs" />
+    <Compile Include="Forms\embSimplePeriods.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\embSimplePeriods.Designer.cs">
+      <DependentUpon>embSimplePeriods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\EnergyDataNew.cs" />
+    <Compile Include="Data\FileIO.cs" />
+    <Compile Include="Data\Float24bit.cs" />
+    <Compile Include="Forms\frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProgress.Designer.cs">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmYearlyCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmYearlyCompare.Designer.cs">
+      <DependentUpon>frmYearlyCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\IDisplayData.cs" />
+    <Compile Include="Forms\frmMonthlyCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMonthlyCompare.Designer.cs">
+      <DependentUpon>frmMonthlyCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ITariffEmb.cs" />
+    <Compile Include="Forms\TariffScheme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TariffScheme.Designer.cs">
+      <DependentUpon>TariffScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\MsgBox.cs" />
+    <Compile Include="Utils\ObjectXMLSerializer.cs" />
+    <Compile Include="Utils\RoundFrame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\RoundFrame.Designer.cs">
+      <DependentUpon>RoundFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RoundScroll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\RoundScroll.Designer.cs">
+      <DependentUpon>RoundScroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serial\ISerialStream.cs" />
+    <Compile Include="Serial\SerialCOM.cs" />
+    <Compile Include="Serial\SerialPortStream.cs" />
+    <Compile Include="Serial\SerialSignal.cs" />
+    <Compile Include="Serial\Win32SerialPort.cs" />
+    <Compile Include="Data\Settings.cs" />
+    <Compile Include="Forms\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportCosts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportCosts.Designer.cs">
+      <DependentUpon>Sub2RightBriefReportCosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportEnergy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportEnergy.Designer.cs">
+      <DependentUpon>Sub2RightBriefReportEnergy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\embTariff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\embTariff.Designer.cs">
+      <DependentUpon>embTariff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAdvTariff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAdvTariff.Designer.cs">
+      <DependentUpon>frmAdvTariff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\IBriefReport.cs" />
+    <Compile Include="Forms\SubLeftCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubLeftCalendar.Designer.cs">
+      <DependentUpon>SubLeftCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DashLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\DashLabel.Designer.cs">
+      <DependentUpon>DashLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ITariff.cs" />
+    <Compile Include="Forms\SubLeftDisplayData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubLeftDisplayData.Designer.cs">
+      <DependentUpon>SubLeftDisplayData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\IPercentage.cs" />
+    <Compile Include="Forms\SubRightBriefReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubRightBriefReport.Designer.cs">
+      <DependentUpon>SubRightBriefReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\GlassButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\GlassButton.designer.cs">
+      <DependentUpon>GlassButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubLeftPercentageLarge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubLeftPercentageLarge.Designer.cs">
+      <DependentUpon>SubLeftPercentageLarge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PercentageSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PercentageSmall.Designer.cs">
+      <DependentUpon>PercentageSmall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\BackupRestore.es-ES.resx">
+      <DependentUpon>BackupRestore.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BackupRestore.resx">
+      <DependentUpon>BackupRestore.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\embSimplePeriods.es-ES.resx">
+      <DependentUpon>embSimplePeriods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\embSimplePeriods.resx">
+      <DependentUpon>embSimplePeriods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\embTariff.es-ES.resx">
+      <DependentUpon>embTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAdvTariff.es-ES.resx">
+      <DependentUpon>frmAdvTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.es-ES.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMonthlyCompare.es-ES.resx">
+      <DependentUpon>frmMonthlyCompare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProgress.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMonthlyCompare.resx">
+      <DependentUpon>frmMonthlyCompare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmYearlyCompare.es-ES.resx">
+      <DependentUpon>frmYearlyCompare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmYearlyCompare.resx">
+      <DependentUpon>frmYearlyCompare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PercentageSmall.es-ES.resx">
+      <DependentUpon>PercentageSmall.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TariffScheme.resx">
+      <DependentUpon>TariffScheme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\RoundFrame.resx">
+      <DependentUpon>RoundFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoundScroll.resx">
+      <DependentUpon>RoundScroll.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportCarbon.es-ES.resx">
+      <DependentUpon>Sub2RightBriefReportCarbon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportCosts.es-ES.resx">
+      <DependentUpon>Sub2RightBriefReportCosts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportCosts.resx">
+      <DependentUpon>Sub2RightBriefReportCosts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportEnergy.es-ES.resx">
+      <DependentUpon>Sub2RightBriefReportEnergy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportEnergy.resx">
+      <DependentUpon>Sub2RightBriefReportEnergy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDByMonth.es-ES.resx">
+      <DependentUpon>Sub2RightDDByMonth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDByWeek.es-ES.resx">
+      <DependentUpon>Sub2RightDDByWeek.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDCurveMonth.es-ES.resx">
+      <DependentUpon>Sub2RightDDCurveMonth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDCurveWeek.es-ES.resx">
+      <DependentUpon>Sub2RightDDCurveWeek.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDCurveWeek.resx">
+      <DependentUpon>Sub2RightDDCurveWeek.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDLatest24.es-ES.resx">
+      <DependentUpon>Sub2RightDDLatest24.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDMonthPerYear.es-ES.resx">
+      <DependentUpon>Sub2RightDDMonthPerYear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightSingleTariff.es-ES.resx">
+      <DependentUpon>Sub2RightSingleTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightSingleTariff.resx">
+      <DependentUpon>Sub2RightSingleTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftCalendar.es-ES.resx">
+      <DependentUpon>SubLeftCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftCalendar.resx">
+      <DependentUpon>SubLeftCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\embTariff.resx">
+      <DependentUpon>embTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAdvTariff.resx">
+      <DependentUpon>frmAdvTariff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftDisplayData.es-ES.resx">
+      <DependentUpon>SubLeftDisplayData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftDisplayData.resx">
+      <DependentUpon>SubLeftDisplayData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftPercentageLarge.es-ES.resx">
+      <DependentUpon>SubLeftPercentageLarge.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightBriefReport.es-ES.resx">
+      <DependentUpon>SubRightBriefReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightBriefReport.resx">
+      <DependentUpon>SubRightBriefReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubLeftPercentageLarge.resx">
+      <DependentUpon>SubLeftPercentageLarge.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PercentageSmall.resx">
+      <DependentUpon>PercentageSmall.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\RoundRectControl.resx">
+      <DependentUpon>RoundRectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightBriefReportCarbon.resx">
+      <DependentUpon>Sub2RightBriefReportCarbon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightDisplayData.es-ES.resx">
+      <DependentUpon>SubRightDisplayData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightSettings.es-ES.resx">
+      <DependentUpon>SubRightSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightSettings.resx">
+      <DependentUpon>SubRightSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightTariffGames.es-ES.resx">
+      <DependentUpon>SubRightTariffGames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TariffAdvanced.es-ES.resx">
+      <DependentUpon>TariffAdvanced.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TariffAdvanced.resx">
+      <DependentUpon>TariffAdvanced.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightDisplayData.resx">
+      <DependentUpon>SubRightDisplayData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDByWeek.resx">
+      <DependentUpon>Sub2RightDDByWeek.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDByMonth.resx">
+      <DependentUpon>Sub2RightDDByMonth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDMonthPerYear.resx">
+      <DependentUpon>Sub2RightDDMonthPerYear.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDLatest24.resx">
+      <DependentUpon>Sub2RightDDLatest24.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sub2RightDDCurveMonth.resx">
+      <DependentUpon>Sub2RightDDCurveMonth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubRightTariffGames.resx">
+      <DependentUpon>SubRightTariffGames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utils\RoundRectControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportCarbon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightBriefReportCarbon.Designer.cs">
+      <DependentUpon>Sub2RightBriefReportCarbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubRightSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubRightSettings.Designer.cs">
+      <DependentUpon>SubRightSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightSingleTariff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightSingleTariff.Designer.cs">
+      <DependentUpon>Sub2RightSingleTariff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TariffAdvanced.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\TariffAdvanced.Designer.cs">
+      <DependentUpon>TariffAdvanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubRightDisplayData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubRightDisplayData.Designer.cs">
+      <DependentUpon>SubRightDisplayData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDByWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDByWeek.Designer.cs">
+      <DependentUpon>Sub2RightDDByWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDByMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDByMonth.Designer.cs">
+      <DependentUpon>Sub2RightDDByMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDMonthPerYear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDMonthPerYear.Designer.cs">
+      <DependentUpon>Sub2RightDDMonthPerYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDLatest24.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDLatest24.Designer.cs">
+      <DependentUpon>Sub2RightDDLatest24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDCurveWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDCurveWeek.Designer.cs">
+      <DependentUpon>Sub2RightDDCurveWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDCurveMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sub2RightDDCurveMonth.Designer.cs">
+      <DependentUpon>Sub2RightDDCurveMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SubRightTariffGames.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SubRightTariffGames.Designer.cs">
+      <DependentUpon>SubRightTariffGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\_Language.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Partial\logo_big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Partial\logo_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Main.ico" />
+    <None Include="Partial\bad_cry.png" />
+    <None Include="Partial\good_smile.png" />
+    <None Include="Partial\just_soso.png" />
+    <Content Include="Config\Config en.xml" />
+    <Content Include="Config\Config es.xml" />
+    <Content Include="Config\CountryProfiles en.xml" />
+    <Content Include="Config\CountryProfiles es.xml" />
+    <Content Include="elink1.ico" />
+    <Content Include="Memo.txt" />
+    <Content Include="Partial\logo_big_blue.png" />
+    <Content Include="Resources\elink.ico" />
+    <Content Include="Setup\eLink-en.iss" />
+    <Content Include="Setup\eLink-es general.iss" />
+    <Content Include="Setup\eLink-es REE.iss" />
+    <Content Include="Setup\elink.ico" />
+    <Content Include="Setup\elink_install_image.bmp" />
+    <Content Include="Setup\elink_install_image.png" />
+    <Content Include="Setup\installfiles\CDM 2.04.06.exe" />
+    <Content Include="Setup\installfiles\license-en.txt" />
+    <Content Include="Setup\installfiles\license-es.txt" />
+    <Content Include="Setup\setuplogo.bmp" />
+    <None Include="Resources\Caratula 800x600_2.jpg" />
+    <None Include="Resources\Caratula 800x600_1.jpg" />
+    <None Include="Resources\chalk.png" />
+    <None Include="Setup\installfiles\elinkmanual-en.pdf" />
+    <None Include="Setup\installfiles\elinkmanual-es general.pdf" />
+    <None Include="Setup\installfiles\elinkmanual-es old.pdf" />
+    <None Include="Setup\installfiles\elinkmanual-es.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="elink1.ico">
+      <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Partial\logo_big_blue.png">
+      <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Setup\installfiles\es-ES\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" ..\..\setup\installfiles /y
+copy "$(TargetDir)es-ES" ..\..\setup\installfiles\es-ES\ /y
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
