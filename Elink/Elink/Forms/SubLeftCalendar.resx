@@ -1,0 +1,2673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lb67.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 108</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb67.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb67.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="lb67.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb67.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb67.Name" xml:space="preserve">
+    <value>lb67</value>
+  </data>
+  <data name="&gt;&gt;lb67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb67.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb67.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 108</value>
+  </data>
+  <data name="lb66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb66.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="lb66.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb66.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb66.Name" xml:space="preserve">
+    <value>lb66</value>
+  </data>
+  <data name="&gt;&gt;lb66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb66.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb66.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb65.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 108</value>
+  </data>
+  <data name="lb65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb65.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="lb65.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb65.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb65.Name" xml:space="preserve">
+    <value>lb65</value>
+  </data>
+  <data name="&gt;&gt;lb65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb65.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb65.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lb64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 108</value>
+  </data>
+  <data name="lb64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb64.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lb64.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb64.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb64.Name" xml:space="preserve">
+    <value>lb64</value>
+  </data>
+  <data name="&gt;&gt;lb64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb64.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb64.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lb63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 108</value>
+  </data>
+  <data name="lb63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb63.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lb63.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb63.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb63.Name" xml:space="preserve">
+    <value>lb63</value>
+  </data>
+  <data name="&gt;&gt;lb63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb63.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb63.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lb62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 108</value>
+  </data>
+  <data name="lb62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb62.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="lb62.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb62.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb62.Name" xml:space="preserve">
+    <value>lb62</value>
+  </data>
+  <data name="&gt;&gt;lb62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb62.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb62.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lb61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 108</value>
+  </data>
+  <data name="lb61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb61.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="lb61.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb61.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb61.Name" xml:space="preserve">
+    <value>lb61</value>
+  </data>
+  <data name="&gt;&gt;lb61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb61.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb61.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lb57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 91</value>
+  </data>
+  <data name="lb57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb57.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="lb57.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb57.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb57.Name" xml:space="preserve">
+    <value>lb57</value>
+  </data>
+  <data name="&gt;&gt;lb57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb57.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb57.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lb56.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 91</value>
+  </data>
+  <data name="lb56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb56.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="lb56.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb56.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb56.Name" xml:space="preserve">
+    <value>lb56</value>
+  </data>
+  <data name="&gt;&gt;lb56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb56.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb56.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lb55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 91</value>
+  </data>
+  <data name="lb55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb55.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lb55.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb55.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb55.Name" xml:space="preserve">
+    <value>lb55</value>
+  </data>
+  <data name="&gt;&gt;lb55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb55.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb55.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lb54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 91</value>
+  </data>
+  <data name="lb54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb54.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="lb54.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb54.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb54.Name" xml:space="preserve">
+    <value>lb54</value>
+  </data>
+  <data name="&gt;&gt;lb54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb54.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb54.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lb53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 91</value>
+  </data>
+  <data name="lb53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb53.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lb53.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb53.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb53.Name" xml:space="preserve">
+    <value>lb53</value>
+  </data>
+  <data name="&gt;&gt;lb53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb53.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb53.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lb52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 91</value>
+  </data>
+  <data name="lb52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb52.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="lb52.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb52.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb52.Name" xml:space="preserve">
+    <value>lb52</value>
+  </data>
+  <data name="&gt;&gt;lb52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb52.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb52.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lb51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 91</value>
+  </data>
+  <data name="lb51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb51.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lb51.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb51.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb51.Name" xml:space="preserve">
+    <value>lb51</value>
+  </data>
+  <data name="&gt;&gt;lb51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb51.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb51.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lb47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 74</value>
+  </data>
+  <data name="lb47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb47.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lb47.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb47.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb47.Name" xml:space="preserve">
+    <value>lb47</value>
+  </data>
+  <data name="&gt;&gt;lb47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb47.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb47.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lb46.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 74</value>
+  </data>
+  <data name="lb46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb46.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="lb46.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb46.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb46.Name" xml:space="preserve">
+    <value>lb46</value>
+  </data>
+  <data name="&gt;&gt;lb46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb46.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb46.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lb45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 74</value>
+  </data>
+  <data name="lb45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb45.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="lb45.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb45.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb45.Name" xml:space="preserve">
+    <value>lb45</value>
+  </data>
+  <data name="&gt;&gt;lb45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb45.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb45.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lb44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 74</value>
+  </data>
+  <data name="lb44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb44.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lb44.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb44.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb44.Name" xml:space="preserve">
+    <value>lb44</value>
+  </data>
+  <data name="&gt;&gt;lb44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb44.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb44.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lb43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 74</value>
+  </data>
+  <data name="lb43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb43.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="lb43.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb43.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb43.Name" xml:space="preserve">
+    <value>lb43</value>
+  </data>
+  <data name="&gt;&gt;lb43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb43.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb43.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lb42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 74</value>
+  </data>
+  <data name="lb42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb42.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lb42.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb42.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb42.Name" xml:space="preserve">
+    <value>lb42</value>
+  </data>
+  <data name="&gt;&gt;lb42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb42.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb42.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lb41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 74</value>
+  </data>
+  <data name="lb41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb41.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lb41.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb41.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb41.Name" xml:space="preserve">
+    <value>lb41</value>
+  </data>
+  <data name="&gt;&gt;lb41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb41.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb41.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lb37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 57</value>
+  </data>
+  <data name="lb37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb37.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lb37.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb37.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb37.Name" xml:space="preserve">
+    <value>lb37</value>
+  </data>
+  <data name="&gt;&gt;lb37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb37.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb37.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lb36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 57</value>
+  </data>
+  <data name="lb36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb36.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lb36.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb36.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb36.Name" xml:space="preserve">
+    <value>lb36</value>
+  </data>
+  <data name="&gt;&gt;lb36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb36.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb36.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lb35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 57</value>
+  </data>
+  <data name="lb35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb35.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lb35.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb35.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb35.Name" xml:space="preserve">
+    <value>lb35</value>
+  </data>
+  <data name="&gt;&gt;lb35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb35.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb35.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lb34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 57</value>
+  </data>
+  <data name="lb34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb34.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lb34.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb34.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb34.Name" xml:space="preserve">
+    <value>lb34</value>
+  </data>
+  <data name="&gt;&gt;lb34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb34.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb34.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lb33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 57</value>
+  </data>
+  <data name="lb33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb33.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lb33.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb33.Name" xml:space="preserve">
+    <value>lb33</value>
+  </data>
+  <data name="&gt;&gt;lb33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb33.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb33.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lb32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 57</value>
+  </data>
+  <data name="lb32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb32.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lb32.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb32.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb32.Name" xml:space="preserve">
+    <value>lb32</value>
+  </data>
+  <data name="&gt;&gt;lb32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb32.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb32.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lb31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 57</value>
+  </data>
+  <data name="lb31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb31.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lb31.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb31.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb31.Name" xml:space="preserve">
+    <value>lb31</value>
+  </data>
+  <data name="&gt;&gt;lb31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb31.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb31.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lb27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 40</value>
+  </data>
+  <data name="lb27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb27.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lb27.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb27.Name" xml:space="preserve">
+    <value>lb27</value>
+  </data>
+  <data name="&gt;&gt;lb27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb27.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb27.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lb26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 40</value>
+  </data>
+  <data name="lb26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb26.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="lb26.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb26.Name" xml:space="preserve">
+    <value>lb26</value>
+  </data>
+  <data name="&gt;&gt;lb26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb26.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb26.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lb25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 40</value>
+  </data>
+  <data name="lb25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb25.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="lb25.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb25.Name" xml:space="preserve">
+    <value>lb25</value>
+  </data>
+  <data name="&gt;&gt;lb25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb25.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb25.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lb24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 40</value>
+  </data>
+  <data name="lb24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb24.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="lb24.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb24.Name" xml:space="preserve">
+    <value>lb24</value>
+  </data>
+  <data name="&gt;&gt;lb24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb24.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb24.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lb23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 40</value>
+  </data>
+  <data name="lb23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb23.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lb23.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb23.Name" xml:space="preserve">
+    <value>lb23</value>
+  </data>
+  <data name="&gt;&gt;lb23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb23.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb23.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lb22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 40</value>
+  </data>
+  <data name="lb22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb22.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lb22.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb22.Name" xml:space="preserve">
+    <value>lb22</value>
+  </data>
+  <data name="&gt;&gt;lb22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb22.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb22.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lb21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lb21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 40</value>
+  </data>
+  <data name="lb21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb21.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lb21.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb21.Name" xml:space="preserve">
+    <value>lb21</value>
+  </data>
+  <data name="&gt;&gt;lb21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb21.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb21.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lb17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="lb17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb17.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lb17.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb17.Name" xml:space="preserve">
+    <value>lb17</value>
+  </data>
+  <data name="&gt;&gt;lb17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb17.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb17.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lb16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="lb16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb16.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lb16.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb16.Name" xml:space="preserve">
+    <value>lb16</value>
+  </data>
+  <data name="&gt;&gt;lb16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb16.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb16.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lb15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="lb15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb15.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lb15.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb15.Name" xml:space="preserve">
+    <value>lb15</value>
+  </data>
+  <data name="&gt;&gt;lb15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb15.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb15.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="lb14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="lb14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb14.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lb14.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb14.Name" xml:space="preserve">
+    <value>lb14</value>
+  </data>
+  <data name="&gt;&gt;lb14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb14.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb14.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="lb13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 23</value>
+  </data>
+  <data name="lb13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb13.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lb13.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb13.Name" xml:space="preserve">
+    <value>lb13</value>
+  </data>
+  <data name="&gt;&gt;lb13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb13.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb13.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="lb12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="lb12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb12.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lb12.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb12.Name" xml:space="preserve">
+    <value>lb12</value>
+  </data>
+  <data name="&gt;&gt;lb12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb12.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb12.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="lbw7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 5</value>
+  </data>
+  <data name="lbw7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw7.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lbw7.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="lbw7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw7.Name" xml:space="preserve">
+    <value>lbw7</value>
+  </data>
+  <data name="&gt;&gt;lbw7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw7.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw7.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="lbw6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 5</value>
+  </data>
+  <data name="lbw6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw6.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lbw6.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lbw6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw6.Name" xml:space="preserve">
+    <value>lbw6</value>
+  </data>
+  <data name="&gt;&gt;lbw6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw6.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw6.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="lbw5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 5</value>
+  </data>
+  <data name="lbw5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw5.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lbw5.Text" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="lbw5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw5.Name" xml:space="preserve">
+    <value>lbw5</value>
+  </data>
+  <data name="&gt;&gt;lbw5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw5.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw5.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="lbw4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 5</value>
+  </data>
+  <data name="lbw4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw4.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lbw4.Text" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="lbw4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw4.Name" xml:space="preserve">
+    <value>lbw4</value>
+  </data>
+  <data name="&gt;&gt;lbw4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw4.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw4.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="lbw3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 5</value>
+  </data>
+  <data name="lbw3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw3.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lbw3.Text" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="lbw3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw3.Name" xml:space="preserve">
+    <value>lbw3</value>
+  </data>
+  <data name="&gt;&gt;lbw3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw3.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw3.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="lbw2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 5</value>
+  </data>
+  <data name="lbw2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw2.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lbw2.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="lbw2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw2.Name" xml:space="preserve">
+    <value>lbw2</value>
+  </data>
+  <data name="&gt;&gt;lbw2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw2.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw2.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="lbw1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt, style=Bold</value>
+  </data>
+  <data name="lbw1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
+  </data>
+  <data name="lbw1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbw1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lbw1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lbw1.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="lbw1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbw1.Name" xml:space="preserve">
+    <value>lbw1</value>
+  </data>
+  <data name="&gt;&gt;lbw1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbw1.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lbw1.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="lb11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="lb11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lb11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="lb11.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lb11.Text" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="lb11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lb11.Name" xml:space="preserve">
+    <value>lb11</value>
+  </data>
+  <data name="&gt;&gt;lb11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb11.Parent" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;lb11.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="plDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 92</value>
+  </data>
+  <data name="plDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 135</value>
+  </data>
+  <data name="plDays.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;plDays.Name" xml:space="preserve">
+    <value>plDays</value>
+  </data>
+  <data name="&gt;&gt;plDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plDays.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;plDays.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dot6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 22</value>
+  </data>
+  <data name="dot6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot6.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="dot6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dot6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot6.Name" xml:space="preserve">
+    <value>dot6</value>
+  </data>
+  <data name="&gt;&gt;dot6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot6.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dot5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="dot5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot5.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="dot5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dot5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot5.Name" xml:space="preserve">
+    <value>dot5</value>
+  </data>
+  <data name="&gt;&gt;dot5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot5.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 5</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 12</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Select week #:</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dot4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="dot4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="dot4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dot4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot4.Name" xml:space="preserve">
+    <value>dot4</value>
+  </data>
+  <data name="&gt;&gt;dot4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot4.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dot3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 22</value>
+  </data>
+  <data name="dot3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="dot3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dot3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot3.Name" xml:space="preserve">
+    <value>dot3</value>
+  </data>
+  <data name="&gt;&gt;dot3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot3.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dot2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="dot2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="dot2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dot2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot2.Name" xml:space="preserve">
+    <value>dot2</value>
+  </data>
+  <data name="&gt;&gt;dot2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot2.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 22</value>
+  </data>
+  <data name="dot1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 16</value>
+  </data>
+  <data name="dot1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="dot1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dot1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dot1.Name" xml:space="preserve">
+    <value>dot1</value>
+  </data>
+  <data name="&gt;&gt;dot1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dot1.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;dot1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rcWeekNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 20</value>
+  </data>
+  <data name="rcWeekNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rcWeekNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="rcWeekNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;rcWeekNumber.Name" xml:space="preserve">
+    <value>rcWeekNumber</value>
+  </data>
+  <data name="&gt;&gt;rcWeekNumber.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.33337, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rcWeekNumber.Parent" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;rcWeekNumber.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="plWeeks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 92</value>
+  </data>
+  <data name="plWeeks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="plWeeks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 43</value>
+  </data>
+  <data name="plWeeks.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="plWeeks.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;plWeeks.Name" xml:space="preserve">
+    <value>plWeeks</value>
+  </data>
+  <data name="&gt;&gt;plWeeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plWeeks.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;plWeeks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 4</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>plYear</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 5</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>plYear</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="lbYear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="lbYear.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbYear.Text" xml:space="preserve">
+    <value>2008</value>
+  </data>
+  <data name="&gt;&gt;lbYear.Name" xml:space="preserve">
+    <value>lbYear</value>
+  </data>
+  <data name="&gt;&gt;lbYear.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.33337, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbYear.Parent" xml:space="preserve">
+    <value>plYear</value>
+  </data>
+  <data name="&gt;&gt;lbYear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="plYear.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="plYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="plYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="plYear.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;plYear.Name" xml:space="preserve">
+    <value>plYear</value>
+  </data>
+  <data name="&gt;&gt;plYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plYear.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;plYear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="plMonth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbMonth12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 52</value>
+  </data>
+  <data name="lbMonth12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth12.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lbMonth12.Text" xml:space="preserve">
+    <value>DEC</value>
+  </data>
+  <data name="lbMonth12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth12.Name" xml:space="preserve">
+    <value>lbMonth12</value>
+  </data>
+  <data name="&gt;&gt;lbMonth12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth12.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbMonth11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 52</value>
+  </data>
+  <data name="lbMonth11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth11.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lbMonth11.Text" xml:space="preserve">
+    <value>NOV</value>
+  </data>
+  <data name="lbMonth11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth11.Name" xml:space="preserve">
+    <value>lbMonth11</value>
+  </data>
+  <data name="&gt;&gt;lbMonth11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth11.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbMonth10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 52</value>
+  </data>
+  <data name="lbMonth10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth10.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lbMonth10.Text" xml:space="preserve">
+    <value>OCT</value>
+  </data>
+  <data name="lbMonth10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth10.Name" xml:space="preserve">
+    <value>lbMonth10</value>
+  </data>
+  <data name="&gt;&gt;lbMonth10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth10.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbMonth9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="lbMonth9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth9.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lbMonth9.Text" xml:space="preserve">
+    <value>SEP</value>
+  </data>
+  <data name="lbMonth9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth9.Name" xml:space="preserve">
+    <value>lbMonth9</value>
+  </data>
+  <data name="&gt;&gt;lbMonth9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth9.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbMonth8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 29</value>
+  </data>
+  <data name="lbMonth8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth8.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lbMonth8.Text" xml:space="preserve">
+    <value>AUG</value>
+  </data>
+  <data name="lbMonth8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth8.Name" xml:space="preserve">
+    <value>lbMonth8</value>
+  </data>
+  <data name="&gt;&gt;lbMonth8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth8.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbMonth7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 29</value>
+  </data>
+  <data name="lbMonth7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth7.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lbMonth7.Text" xml:space="preserve">
+    <value>JUL</value>
+  </data>
+  <data name="lbMonth7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth7.Name" xml:space="preserve">
+    <value>lbMonth7</value>
+  </data>
+  <data name="&gt;&gt;lbMonth7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth7.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbMonth6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="lbMonth6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth6.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lbMonth6.Text" xml:space="preserve">
+    <value>JUN</value>
+  </data>
+  <data name="lbMonth6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth6.Name" xml:space="preserve">
+    <value>lbMonth6</value>
+  </data>
+  <data name="&gt;&gt;lbMonth6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth6.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbMonth5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 29</value>
+  </data>
+  <data name="lbMonth5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth5.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lbMonth5.Text" xml:space="preserve">
+    <value>MAY</value>
+  </data>
+  <data name="lbMonth5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth5.Name" xml:space="preserve">
+    <value>lbMonth5</value>
+  </data>
+  <data name="&gt;&gt;lbMonth5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth5.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbMonth4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 6</value>
+  </data>
+  <data name="lbMonth4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth4.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lbMonth4.Text" xml:space="preserve">
+    <value>APR</value>
+  </data>
+  <data name="lbMonth4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth4.Name" xml:space="preserve">
+    <value>lbMonth4</value>
+  </data>
+  <data name="&gt;&gt;lbMonth4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth4.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbMonth3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="lbMonth3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth3.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lbMonth3.Text" xml:space="preserve">
+    <value>MAR</value>
+  </data>
+  <data name="lbMonth3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth3.Name" xml:space="preserve">
+    <value>lbMonth3</value>
+  </data>
+  <data name="&gt;&gt;lbMonth3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth3.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbMonth2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 6</value>
+  </data>
+  <data name="lbMonth2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lbMonth2.Text" xml:space="preserve">
+    <value>FEB</value>
+  </data>
+  <data name="lbMonth2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth2.Name" xml:space="preserve">
+    <value>lbMonth2</value>
+  </data>
+  <data name="&gt;&gt;lbMonth2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth2.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbMonth1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="lbMonth1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 11</value>
+  </data>
+  <data name="lbMonth1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lbMonth1.Text" xml:space="preserve">
+    <value>JAN</value>
+  </data>
+  <data name="lbMonth1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbMonth1.Name" xml:space="preserve">
+    <value>lbMonth1</value>
+  </data>
+  <data name="&gt;&gt;lbMonth1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth1.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rndMonth3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 48</value>
+  </data>
+  <data name="rndMonth3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rndMonth3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="rndMonth3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;rndMonth3.Name" xml:space="preserve">
+    <value>rndMonth3</value>
+  </data>
+  <data name="&gt;&gt;rndMonth3.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.33337, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rndMonth3.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;rndMonth3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rndMonth2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="rndMonth2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rndMonth2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="rndMonth2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;rndMonth2.Name" xml:space="preserve">
+    <value>rndMonth2</value>
+  </data>
+  <data name="&gt;&gt;rndMonth2.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.33337, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rndMonth2.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;rndMonth2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rndMonth1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="rndMonth1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rndMonth1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="rndMonth1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;rndMonth1.Name" xml:space="preserve">
+    <value>rndMonth1</value>
+  </data>
+  <data name="&gt;&gt;rndMonth1.Type" xml:space="preserve">
+    <value>Elink.RoundRectControl, Elink, Version=1.1.0.33337, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rndMonth1.Parent" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;rndMonth1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="plMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="plMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="plMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;plMonth.Name" xml:space="preserve">
+    <value>plMonth</value>
+  </data>
+  <data name="&gt;&gt;plMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plMonth.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;plMonth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 229</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbWeek0.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbWeek0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbWeek0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbWeek0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 100</value>
+  </data>
+  <data name="lbWeek0.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbWeek0.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="lbWeek0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbWeek0.Name" xml:space="preserve">
+    <value>lbWeek0</value>
+  </data>
+  <data name="&gt;&gt;lbWeek0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbWeek1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbWeek1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="lbWeek1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbWeek1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="lbWeek1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbWeek1.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="lbWeek1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbWeek1.Name" xml:space="preserve">
+    <value>lbWeek1</value>
+  </data>
+  <data name="&gt;&gt;lbWeek1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 100</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 6.75pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 229</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

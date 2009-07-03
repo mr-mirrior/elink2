@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <user_name>YOUR NAME</user_name>
+    <country>YOUR COUNTRY</country>
+    <average_consumption>1.8</average_consumption>
+    <carbon>1.5</carbon>
+    <target>2</target>
+    <currency>£</currency>
+    <target_type>1</target_type>
+    <target_period>0</target_period>
+    <single_tariff>true</single_tariff>
+    <backup_time>0001-01-01T00:00:00</backup_time>
+    <firmware_version>1.1</firmware_version>
+    <advTariff>
+        <tariff_name>#001</tariff_name>
+        <last_update>2008-09-08T03:36:14.8114+08:00</last_update>
+        <valid_since>
+            <E2Time>0001-01-01T00:00:00</E2Time>
+            <PCTime>0001-01-01T00:00:00</PCTime>
+        </valid_since>
+        <valid_until>
+            <E2Time>0001-01-01T00:00:00</E2Time>
+            <PCTime>0001-01-01T00:00:00</PCTime>
+        </valid_until>
+        <max_power>4</max_power>
+        <power_fee>0</power_fee>
+        <energy_rates_p1>0.12</energy_rates_p1>
+        <number_periods>0</number_periods>
+        <meter_rent>0</meter_rent>
+        <elec_tax>0</elec_tax>
+        <VAT>0</VAT>
+        <over_limit>99999</over_limit>
+        <over_charge>0</over_charge>
+        <tariffs>2</tariffs>
+        <price_alias>
+            <string>On Peak</string>
+            <string>Off Peak</string>
+            <string>Others</string>
+        </price_alias>
+        <price_values>
+            <float>0.15</float>
+            <float>0.05</float>
+            <float>1</float>
+        </price_values>
+        <price_currency>£</price_currency>
+        <simple>true</simple>
+        <simple_periods>2</simple_periods>
+        <p1_price>0</p1_price>
+        <p2_price>1</p2_price>
+        <p3_price>0</p3_price>
+        <p1_time1>11:00</p1_time1>
+        <p1_time2>21:00</p1_time2>
+        <p3_time1>21:00</p3_time1>
+        <p3_time2>11:00</p3_time2>
+        <adv />
+    </advTariff>
+</Settings>
